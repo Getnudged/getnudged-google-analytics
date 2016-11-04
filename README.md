@@ -16,6 +16,6 @@ Um den Google Analytics Opt-Out Link zu setzen, müssen Sie lediglich den Shortc
 ```
 ## Download & Installation
 
-[ZIP herunterladen](https://github.com/pixelbart/getnudged-google-analytics/archive/master.zip)
+[ZIP herunterladen](https://github.com/Getnudged/getnudged-google-analytics/archive/master.zip)
 
 Jetzt gehen Sie in Ihrem `/wp-admin` auf den Punkt `Plugins` und oben auf `installieren`. Danach erscheint oben ein Button mit dem Text `Plugin hochladen`. Da klicken Sie drauf und laden die ZIP hoch.
