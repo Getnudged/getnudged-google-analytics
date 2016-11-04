@@ -1,4 +1,4 @@
-# getnudged-google-analytics
+# Getnudged Google Analytics
 Google Analytics Datenschutzkonform einbinden - WordPress Plugin
 
 ## Google Analytics Property ID einfügen
