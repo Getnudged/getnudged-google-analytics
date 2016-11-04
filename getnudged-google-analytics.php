@@ -40,6 +40,26 @@ function gnga_register_customizer($wp_customize) {
     'type' => 'text'
     )
   ));	
+      
+  # Feld hinzufügen
+  $wp_customize->add_setting('gaoptout', array(
+    'default' => '',
+    'transport' => 'refresh',
+  ));	
+      
+  # Feld definieren
+  $wp_customize->add_control(new \WP_Customize_Control(
+    $wp_customize,
+    'gaoptout',
+    array(
+    'label' => __('Opt-Out Linktext'),
+    'section' => 'gnga-options',
+    'settings' => 'gaoptout',
+    'capability' => 'edit_theme_options',
+    'description' => __('Hier tragen Sie einen beliebigen Text für den Opt Out Link ein. (Standard: Google Analytics deaktivieren)'),
+    'type' => 'text'
+    )
+  ));	
   
 }	
 	
