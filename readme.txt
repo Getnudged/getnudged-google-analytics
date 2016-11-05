@@ -31,13 +31,13 @@ Um den Google Analytics Opt-Out Link zu setzen, müssen Sie lediglich den Shortc
 Dieser Bereich erklärt Dir wie Du das Plugin installierst und aktivierst.
 
 1. Lade die Plugindateien in das `/wp-content/plugins/plugin-name` Verzeichnis, oder installiere das Plugin im Pluginmanager von WordPress.
-2. Aktiviere das Plugin im Pluginbereich im /wp-admin.
-3. Konfiguriere das Plugin unter Design -> Anpassen und klicke dort auf Google Analytics.
+1. Aktiviere das Plugin im Pluginbereich im /wp-admin.
+1. Konfiguriere das Plugin unter Design -> Anpassen und klicke dort auf Google Analytics.
 
 == Changelog ==
 
 = 1.1.1 =
-* Automatische Updates
+* Automatische Updates über Github eingebaut.
 
 = 1.0 =
-* Release
+* Der Plugin-Release.
