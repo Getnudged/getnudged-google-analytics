@@ -20,13 +20,11 @@ Nach dem Sie das Plugin installiert und aktiviert haben, können Sie im WordPres
 
 Diese finden Sie im `Customizer` unter dem Punkt `Google Analytics`.
 
-**Google Analytics Opt-Out Link einfügen***
+**Google Analytics Opt-Out Link einfügen**
 
 Um den Google Analytics Opt-Out Link zu setzen, müssen Sie lediglich den Shortcode dafür, an einer beliebigen Stelle auf Ihrer Seite einfügen.
 
-```
-[optout]
-```
+`[optout]`
 
 == Installation ==
 
