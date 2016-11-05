@@ -11,6 +11,18 @@
  */
 
 /**
+ * Plugin Update Checker von YahnisElsts
+ * https://github.com/YahnisElsts
+ */
+require 'plugin-update-checker/plugin-update-checker.php';
+$className = PucFactory::getLatestClassVersion('PucGitHubChecker');
+$myUpdateChecker = new $className(
+    'https://github.com/Getnudged/getnudged-google-analytics/',
+    __FILE__,
+    'master'
+);
+
+/**
  * Customizer registrieren
  */
 add_action('customize_register', 'gnga_register_customizer' );
