@@ -24,8 +24,6 @@ Diese finden Sie im `Customizer` unter dem Punkt `Google Analytics`.
 
 Um den Google Analytics Opt-Out Link zu setzen, müssen Sie lediglich den Shortcode dafür, an einer beliebigen Stelle auf Ihrer Seite einfügen.
 
-`[optout]`
-
 == Installation ==
 
 Dieser Bereich erklärt Dir wie Du das Plugin installierst und aktivierst.
