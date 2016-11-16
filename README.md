@@ -5,7 +5,9 @@ Google Analytics Datenschutzkonform einbinden - WordPress Plugin
 
 Nach dem Sie das Plugin installiert und aktiviert haben, können Sie im WordPress Customizer (Anpassen unter Punkt Design) die Einstellungen für Ihr Google Analytics vornehmen.
 
-Diese finden Sie im `Customizer` unter dem Punkt `Google Analytics`. (Design -> Anpassen -> Google Analytics)
+Diese finden Sie im `Customizer` unter dem Punkt `Google Analytics`. 
+
+(Design -> Anpassen -> Google Analytics)
 
 ## Google Analytics Opt-Out Link einfügen
 
