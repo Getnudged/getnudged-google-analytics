@@ -3,7 +3,7 @@
  * Plugin Name: Getnudged Google Analytics
  * Plugin URI:  https://getnudged.de
  * Description: Google Analytics Datenschutzkonform einbinden.
- * Version:     1.1.1
+ * Version:     1.1.2
  * Author:      Getnudged
  * Author URI:  https://getnudged.de
  * License:     MIT License
@@ -161,6 +161,6 @@ function gnga_optout( $atts ){
     $text = __('Google Analytics deaktivieren');
   }
   
-  return '<a onclick="alert(\'Google Analytics wurde deaktiviert\');" href="javascript:gaOptout()">' . $text . '</a>';  
+  return '<p><a onclick="alert(\'Google Analytics wurde deaktiviert\');" href="javascript:gaOptout()">' . $text . '</a></p>';  
 }
 add_shortcode( 'optout', 'gnga_optout' );
