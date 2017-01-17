@@ -133,6 +133,7 @@ if (document.cookie.indexOf(disableStr + '=true') > -1) {
 function gaOptout() {
   document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
   window[disableStr] = true;
+  alert(\'Google Analytics wurde deaktiviert\');
 }
 // GOOGLE ANALYTICS
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -161,6 +162,6 @@ function gnga_optout( $atts ){
     $text = __('Google Analytics deaktivieren');
   }
   
-  return '<p><a onclick="alert(\'Google Analytics wurde deaktiviert\'); gaOptout();" href="javascript:gaOptout()">' . $text . '</a></p>';  
+  return '<p><a onclick="gaOptout();" href="javascript:gaOptout()">' . $text . '</a></p>';  
 }
 add_shortcode( 'optout', 'gnga_optout' );
