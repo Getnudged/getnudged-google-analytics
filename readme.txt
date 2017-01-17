@@ -36,6 +36,9 @@ Dieser Bereich erklärt Dir wie Du das Plugin installierst und aktivierst.
 
 == Changelog ==
 
+= 1.1.3.1 =
+* Es wurden kleinere Fehler behoben.
+
 = 1.1.3 =
 * Es wurden kleinere Fehler behoben.
 
