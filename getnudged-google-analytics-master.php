@@ -3,7 +3,7 @@
  * Plugin Name: Getnudged Google Analytics
  * Plugin URI:  https://getnudged.de
  * Description: Google Analytics Datenschutzkonform einbinden.
- * Version:     1.1.3
+ * Version:     1.1.3.1
  * Author:      Getnudged
  * Author URI:  https://getnudged.de
  * License:     MIT License
